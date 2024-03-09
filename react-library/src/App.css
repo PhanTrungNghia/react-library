@@ -1,0 +1,135 @@
+:root {
+    --mainOpacity: rgba(0, 0, 0, 0.55);
+}
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./Images/PublicImages/image-2.jpg");
+    opacity: var(--mainOpacity);
+    height: 25em !important;
+}
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.35);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.main-color {
+    background-color: #0e76a8;
+}
+
+.col-image-left {
+    background-image: url("./Images/PublicImages/image-4.jpg");
+    height: 25em !important;
+}
+
+.col-image-right {
+    background-image: url("./Images/PublicImages/image-1.jpg");
+    height: 25em !important;
+}
+
+.lost-image {
+    background-image: url("./Images/PublicImages/image-3.jpg");
+    height: 25em !important;
+    width: "720"
+}
+
+.homepage-carousel-title {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.book-div {
+    width: 480px;
+    height: 384px;
+}
+
+.inactiveLink {
+    pointer-events: none;
+    cursor: default;
+}
+
+.CartPage-container {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.Order-item {
+    border: 1px solid #eee;
+    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 8px;
+}
+
+.Order-item h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.Order-item ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Order-item li {
+    margin-bottom: 8px;
+}
+
+.Order-item div {
+    margin-bottom: 4px;
+}
+
+.Order-item button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.Order-item button:hover {
+    background-color: #cc4125;
+}
+
+/* okta css */
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
